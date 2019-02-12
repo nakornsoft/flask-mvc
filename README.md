@@ -18,7 +18,7 @@ python server.py
 
 
 
-FLASK_APP=server.py
-FLASK_ENV=development
+set FLASK_APP=server.py
+set FLASK_ENV=development
 
 flask run
