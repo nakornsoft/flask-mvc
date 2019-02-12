@@ -16,8 +16,6 @@ $ python
 # Run Server (http://localhst:5000)
 python server.py
 
-
-
 set FLASK_APP=server.py
 set FLASK_ENV=development
 
