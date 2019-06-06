@@ -6,6 +6,7 @@ from flask_marshmallow import Marshmallow
 
 
 app = Flask(__name__)
+app = Flask(__name__,template_folder='views')
 app.config.from_pyfile('config.py')
 db = SQLAlchemy(app)
 ma = Marshmallow(app)
